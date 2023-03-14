@@ -10,6 +10,9 @@ input.onPinPressed(TouchPin.P0, function () {
     basic.showString(" = ")
     basic.showNumber(TERMINO_C)
 })
+input.onLogoEvent(TouchButtonEvent.Pressed, function () {
+    basic.showIcon(IconNames.Heart)
+})
 input.onButtonPressed(Button.A, function () {
     TERMINO_A += randint(1, 20)
     basic.showNumber(TERMINO_A)
