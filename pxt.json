@@ -1,5 +1,5 @@
 {
-    "name": "ECUACIÓN AX+B=C",
+    "name": "ECUACIONES AX+B=C",
     "description": "",
     "dependencies": {
         "core": "*",
